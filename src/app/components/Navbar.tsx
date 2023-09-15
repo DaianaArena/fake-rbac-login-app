@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import AuthProfileMenu from './auth/AuthProfileMenu'
 
 const Navbar = () => {
   return (
@@ -13,6 +14,8 @@ const Navbar = () => {
         >
             Login/Sign Up
         </a>
+
+        <AuthProfileMenu/>
     </div>
 
   )
